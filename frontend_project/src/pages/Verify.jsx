@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import { useSearchParams } from 'react-router-dom';
 import axios from 'axios';
@@ -26,11 +26,13 @@ const Verify = () => {
             }
         }
         catch(error){
-            console.log(error);
             toast.error(error.message);
             
         }
     }
+    useEffect(()=>{
+        verifyPayment();
+    })
   return (
 <div></div>
   )

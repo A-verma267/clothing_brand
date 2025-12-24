@@ -34,6 +34,10 @@ const Navbar = () => {
             <p>CONTACT</p>
             <hr className='hidden w-2/4 border-none h-[1.5px] bg-gray-700'/>
         </NavLink>
+        <a href ='/admin/'  className='flex flex-col items-center gap-1'>
+            <p>Admin</p>
+            <hr className='hidden w-2/4 border-none h-[1.5px] bg-gray-700'/>
+        </a>
       </ul>
 
       <div className='flex items-center gap-6'>
