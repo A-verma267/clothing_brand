@@ -24,7 +24,6 @@ const placeOrder = async(req,res) => {
 
     try{
         const {userId , items, amount , address} = req.body;
-        console.log(userId);
         
         const orderData = {
             userId,
