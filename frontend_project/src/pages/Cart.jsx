@@ -59,7 +59,7 @@ const Cart = () => {
           })
         }
       </div>
-      <div className='flex justify-between'>
+      <div className='flex mt-10 justify-between'>
         <div className='w-full sm:w-[450px]'>
           <CartTotal />
           <div className='w-full text-end'>
